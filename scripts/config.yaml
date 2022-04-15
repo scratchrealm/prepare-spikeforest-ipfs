@@ -4,11 +4,17 @@ studies:
     study_name: paired_boyden32c
     recording_names:
       - "1103_1_1"
+      - "419_1_7"
+      - "419_1_8"
+      - "509_1_1"
   -
     study_set_name: PAIRED_CRCNS_HC1
     study_name: paired_crcns
     recording_names:
       - "d11221_d11221.001"
+      - "d11221_d11221.002"
+      - "d11222_d11222.001"
+      - "d11222_d11222.002"
   -
     study_set_name: PAIRED_ENGLISH
     study_name: paired_english
@@ -34,8 +40,13 @@ studies:
     recording_names:
       - 2014_11_25_Pair_3_0
       - 2015_09_03_Pair_9_0A
+      - 2015_09_03_Pair_9_0B
+      - c14
   -
     study_set_name: PAIRED_MEA64C_YGER
     study_name: paired_mea64c
     recording_names:
       - "20160415_patch2"
+      - "20170621_patch1"
+      - "20170622_patch1"
+      - "20170622_patch2"
