@@ -52,8 +52,9 @@ def main():
 
                 kcl.set_mutable(k, kcl.store_json(recording_rec))
             recording_records.append(recording_rec)
-    kcl.set_mutable('spikeforest-recordings', kcl.store_json({'recordings': recording_records}))
-    print(recording_records)
+    spikeforest_recordings_uri = kcl.store_json({'recordings': recording_records}) + '?spikeforest-recordings.json'
+    kcl.set_mutable('spikeforest-recordings', spikeforest_recordings_uri)
+    print(spikeforest_recordings_uri)
 
             
 # def _create_recording_nwb(recording_uri):
